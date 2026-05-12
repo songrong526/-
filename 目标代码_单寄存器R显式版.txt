@@ -1,0 +1,32 @@
+001: PROC main
+002: LD R, 2
+003: ST a, R
+004: LD R, 10
+005: ST t1, R
+006: LD R, 12
+007: ST t2, R
+008: LD R, 12
+009: ST b, R
+010: LD R, 1
+011: ST t3, R
+012: LD R, 1
+013: CMP R, 0
+014: JE 20
+015: LD R, 6
+016: ST t4, R
+017: LD R, 6
+018: ST c, R
+019: JMP 22
+020: LD R, 2
+021: ST c, R
+022: LD R, 1
+023: ST t5, R
+024: LD R, 1
+025: CMP R, 0
+026: JE 32
+027: LD R, 3
+028: ST t6, R
+029: LD R, 3
+030: ST a, R
+031: JMP 22
+032: ENDP main
